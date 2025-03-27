@@ -7,7 +7,7 @@ Arvore Binária - testes
 -  (set! arvore (inserir-no 4 arvore))  ; Inserir 4
 -  (set! arvore (inserir-no 6 arvore))  ; Inserir 6
 
--  (set! arvore (remover-no 3 arvore)) ; remover 3
+-  (set! arvore (remover-no 3 arvore)) ; Remover 3
 
 -  (display (buscar-no 4 arvore))  ; #t (existe)
 -  (display (buscar-no 10 arvore))  ; #f (não existe)
