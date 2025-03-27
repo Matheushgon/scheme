@@ -1,13 +1,21 @@
-# scheme
-Arvore Binária - testes
--  (define arvore (inserir-no 5 '()))   ; Criar árvore inicial com nó 5
+# 🌳 Implementação de Árvore Binária de Busca (BST) em Scheme.
 
--  (set! arvore (inserir-no 3 arvore))  ; Inserir 3
--  (set! arvore (inserir-no 7 arvore))  ; Inserir 7
--  (set! arvore (inserir-no 4 arvore))  ; Inserir 4
--  (set! arvore (inserir-no 6 arvore))  ; Inserir 6
+Este repositório contém uma implementação de uma Árvore Binária de Busca (BST) em Scheme, utilizando a linguagem Racket (.rkt). O objetivo do projeto é explorar a manipulação de árvores binárias em um paradigma funcional, aproveitando os recursos da linguagem para estruturar dados de forma eficiente.
 
--  (set! arvore (remover-no 3 arvore)) ; Remover 3
+✨ Funcionalidades
 
--  (display (buscar-no 4 arvore))  ; #t (existe)
--  (display (buscar-no 10 arvore))  ; #f (não existe)
+✅ Inserção de nós na árvore
+
+✅ Busca de elementos
+
+✅ Remoção de nós
+
+🛠️ Tecnologias
+
+Linguagem: Scheme (Racket)
+
+Paradigma: Funcional, com algumas operações imperativas quando necessário
+
+📚 Sobre Scheme e Árvores Binárias
+
+Scheme, sendo uma linguagem funcional, permite implementar estruturas de dados de forma recursiva e elegante. Esta implementação da BST segue essa abordagem, demonstrando a eficiência da recursão para percorrer e manipular a árvore.
